@@ -1,0 +1,876 @@
+=> [[32m#<Cucumber::Core::Report::Summary:0x0000000008830308[0m
+  @previous_test_case[32m=[0m[1;36mnil[0m,
+  @test_cases[32m=[0m
+   [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088302e0[0m
+    @durations[32m=[0m[],
+    @exceptions[32m=[0m[],
+    @totals[32m=[0m{}[32m>[0m,
+  @test_steps[32m=[0m
+   [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088301f0[0m
+    @durations[32m=[0m
+     [[32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+       @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m],
+    @exceptions[32m=[0m[],
+    @totals[32m=[0m{[33m:passed[0m=>[1;34m1[0m}[32m>[0m[32m>[0m,
+ [32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+  formatter[32m=[0m
+   [32m#<Cucumber::Formatter::Pretty:0x0000000006a847a0[0m
+    @config[32m=[0m
+     [32m#<Cucumber::Configuration:0x00000000063b28a0[0m
+      @options[32m=[0m
+       {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+        [33m:filters[0m=>[],
+        [33m:strict[0m=>
+         [32m#<Cucumber::Core::Test::Result::StrictConfiguration:0x000000000647faa8[0m
+          @settings[32m=[0m{[33m:flaky[0m=>[33m:default[0m, [33m:undefined[0m=>[33m:default[0m, [33m:pending[0m=>[33m:default[0m}[32m>[0m,
+        [33m:require[0m=>[],
+        [33m:dry_run[0m=>[1;36mfalse[0m,
+        [33m:fail_fast[0m=>[1;36mfalse[0m,
+        [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, {}, [32m#<IO:<STDOUT>>[0m]],
+        [33m:excludes[0m=>[],
+        [33m:tag_expressions[0m=>[[31m[1;31m"[0m[31m@remover[1;31m"[0m[31m[0m],
+        [33m:name_regexps[0m=>[],
+        [33m:env_vars[0m=>{},
+        [33m:diff_enabled[0m=>[1;36mtrue[0m,
+        [33m:snippets[0m=>[1;36mtrue[0m,
+        [33m:source[0m=>[1;36mfalse[0m,
+        [33m:duration[0m=>[1;36mtrue[0m,
+        [33m:event_bus[0m=>
+         [32m#<Cucumber::Core::EventBus:0x000000000639a598[0m
+          @event_queue[32m=[0m
+           [[32m#<Cucumber::Events::StepDefinitionRegistered:0x0000000008805018[0m
+             @step_definition[32m=[0m
+              [32m#<Cucumber::Glue::StepDefinition:0x0000000008805180[0m
+               @expression[32m=[0m
+                [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008807ef8[0m
+                 @parameter_types[32m=[0m[],
+                 @source[32m=[0m[31m[1;31m"[0m[31mque eu esteja na home site store.demoqa[1;31m"[0m[31m[0m,
+                 @tree_regexp[32m=[0m
+                  [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x0000000008807c00[0m
+                   @group_builder[32m=[0m
+                    [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008807b10[0m
+                     @capturing[32m=[0m[1;36mtrue[0m,
+                     @group_builders[32m=[0m[][32m>[0m,
+                   @regexp[32m=[0m[35m[1;35m/[0m[35m^que eu esteja na home site store[1;35m\.[0m[35mdemoqa$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+               @proc[32m=[0m
+                [32m#<Proc:0x0000000008807f20@C:/Ruby25-x64/devKit/prova/features/step_definitions/busca_steps.rb:1>[0m,
+               @registry[32m=[0m
+                [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m
+                 @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                 @current_world[32m=[0m
+                  [32m#<Object+Capybara::RSpecMatchers+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#<Module:0x0000000008b062f8>+PP::ObjectMixin+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0x45831a4>[0m,
+                 @hooks[32m=[0m
+                  {[33m:after[0m=>
+                    [[32m#<Cucumber::Glue::Hook:0x000000000675e9b8[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675e9e0@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:9>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[][32m>[0m],
+                   [33m:before[0m=>
+                    [[32m#<Cucumber::Glue::Hook:0x000000000675e260[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675e2b0@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:13>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[][32m>[0m,
+                     [32m#<Cucumber::Glue::Hook:0x000000000675dbd0[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675dbf8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:17>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[[31m[1;31m"[0m[31m@javascript[1;31m"[0m[31m[0m][32m>[0m,
+                     [32m#<Cucumber::Glue::Hook:0x000000000675d6f8[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m21[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675d720@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:21>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[][32m>[0m],
+                   [33m:after_configuration[0m=>[],
+                   [33m:after_step[0m=>[],
+                   [33m:around[0m=>[]},
+                 @namespaced_world_modules[32m=[0m{},
+                 @parameter_type_registry[32m=[0m
+                  [32m#<Cucumber::CucumberExpressions::ParameterTypeRegistry:0x0000000006399fa8[0m
+                   @parameter_type_by_name[32m=[0m
+                    {[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399e90[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mtrue[0m,
+                       @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x0000000006399eb8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:17 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mInteger[0m,
+                       @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m,
+                     [31m[1;31m"[0m[31mfloat[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399940[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mfloat[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                       @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md*[1;35m\\[0m[31m.[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x0000000006399968@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:18 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mFloat[0m,
+                       @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m,
+                     [31m[1;31m"[0m[31mword[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399760[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mword[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                       @regexps[32m=[0m[[31m[1;31m"[0m[31m[1;35m\\[0m[31mw+[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x0000000006399788@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:19 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mString[0m,
+                       @use_for_snippets[32m=[0m[1;36mfalse[0m[32m>[0m,
+                     [31m[1;31m"[0m[31mstring[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399580[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mstring[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                       @regexps[32m=[0m
+                        [[31m[1;31m"[0m[31m[1;35m\"[0m[31m([^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)[1;35m\"[0m[31m|'([^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)'[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x00000000063995a8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:20 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mString[0m,
+                       @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m},
+                   @parameter_types_by_regexp[32m=[0m
+                    {[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399e90[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mtrue[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399eb8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:17 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mInteger[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399e90[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mtrue[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399eb8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:17 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mInteger[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m-?[1;35m\\[0m[31md*[1;35m\\[0m[31m.[1;35m\\[0m[31md+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399940[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mfloat[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md*[1;35m\\[0m[31m.[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399968@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:18 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mFloat[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m[1;35m\\[0m[31mw+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399760[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mword[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m[1;35m\\[0m[31mw+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399788@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:19 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mString[0m,
+                        @use_for_snippets[32m=[0m[1;36mfalse[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m[1;35m\"[0m[31m([^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)[1;35m\"[0m[31m|'([^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)'[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399580[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mstring[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                        @regexps[32m=[0m
+                         [[31m[1;31m"[0m[31m[1;35m\"[0m[31m([^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)[1;35m\"[0m[31m|'([^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)'[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x00000000063995a8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:20 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mString[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m]}[32m>[0m,
+                 @runtime[32m=[0m
+                  [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x000000000639a070[0m
+                   @support_code[32m=[0m
+                    [32m#<Cucumber::Runtime::SupportCode:0x000000000639a098[0m
+                     @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                     @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                     @runtime_facade[32m=[0m
+                      [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x000000000639a070[0m
+                       ...[32m>[0m[32m>[0m,
+                   @user_interface[32m=[0m
+                    [32m#<Cucumber::Runtime:0x00000000063b2940[0m
+                     @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                     @features[32m=[0m
+                      [[32m#<Cucumber::Core::Gherkin::Document:0x0000000008a76770[0m
+                        @body[32m=[0m
+                         [31m[1;31m"[0m[31m#language: pt[1;35m\n[0m[31m#utf-8[1;35m\n[0m[31m[1;35m\n[0m[31mFuncionalidade: Efetuar Compra[1;35m\n[0m[31m  Eu como usuário do site[1;35m\n[0m[31m  Quero realizar uma compra no site store.demoqa[1;35m\n[0m[31m  Para realizar a aquisição de produtos[1;35m\n[0m[31m[1;35m\n[0m[31m  @compra[1;35m\n[0m[31m  Cenario: Comprar produto[1;35m\n[0m[31m    Dado que eu esteja na home site store.demoqa[1;35m\n[0m[31m    Quando realizar a compra de um produto[1;35m\n[0m[31m    Então verificar o valor final da compra se há cobrança de frete[1;35m\n[0m[31m[1;35m\n[0m[31m  @carrinho[1;35m\n[0m[31m  Cenario: Validar produtos no carrinho[1;35m\n[0m[31m    Quando enviar três itens para o carrinho[1;35m\n[0m[31m    Então verificar a quantidade de itens selecionado para compra[1;35m\n[0m[31m[1;35m\n[0m[31m  @remover[1;35m\n[0m[31m  Cenario: Remover item do carrinho[1;35m\n[0m[31m      Quando avaliar o item mais cara e remove lo[1;35m\n[0m[31m      Então validar que foi retirado[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                        @language[32m=[0m[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+                        @uri[32m=[0m[31m[1;31m"[0m[31mfeatures/realizar_compra.feature[1;31m"[0m[31m[0m[32m>[0m],
+                     @filespecs[32m=[0m
+                      [32m#<Cucumber::FileSpecs:0x0000000008a76fb8[0m
+                       @file_specs[32m=[0m
+                        [[32m#<Cucumber::FileSpecs::FileSpec:0x0000000008a76f68[0m
+                          @file[32m=[0m[31m[1;31m"[0m[31mfeatures/realizar_compra.feature[1;31m"[0m[31m[0m,
+                          @lines[32m=[0m[][32m>[0m][32m>[0m,
+                     @formatters[32m=[0m[[32m#<struct Cucumber::Formatter::LegacyApi::Adapter:...>[0m],
+                     @report[32m=[0m
+                      [32m#<Cucumber::Core::Report::Summary:0x0000000008830308[0m
+                       @previous_test_case[32m=[0m[1;36mnil[0m,
+                       @test_cases[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088302e0[0m
+                         @durations[32m=[0m[],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{}[32m>[0m,
+                       @test_steps[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088301f0[0m
+                         @durations[32m=[0m
+                          [[32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                            @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m
+                          {[33m:passed[0m=>[1;34m1[0m}[32m>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                       formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x0000000006a847a0[0m ...[32m>[0m,
+                       results[32m=[0m
+                        [32m#<Cucumber::Formatter::LegacyApi::Results:0x0000000006a84ae8[0m
+                         @inserted_scenarios[32m=[0m{},
+                         @inserted_steps[32m=[0m
+                          {[1;34m72512900[0m=>
+                            [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                             step_match[32m=[0m
+                              [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                             status[32m=[0m[33m:passed[0m,
+                             duration[32m=[0m
+                              [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                               @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                             exception[32m=[0m[1;36mnil[0m,
+                             indent[32m=[0m
+                              [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                               @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                             background[32m=[0m[1;36mnil[0m,
+                             step[32m=[0m
+                              [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                             messages[32m=[0m[],
+                             embeddings[32m=[0m[][32m>[0m},
+                         @steps[32m=[0m
+                          [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                            step_match[32m=[0m
+                             [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                            status[32m=[0m[33m:passed[0m,
+                            duration[32m=[0m
+                             [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                              @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                            exception[32m=[0m[1;36mnil[0m,
+                            indent[32m=[0m
+                             [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                              @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                            background[32m=[0m[1;36mnil[0m,
+                            step[32m=[0m
+                             [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                            messages[32m=[0m[],
+                            embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                       config[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m[32m>[0m,
+                     @results[32m=[0m
+                      [32m#<Cucumber::Formatter::LegacyApi::Results:0x0000000006399170[0m
+                       @inserted_scenarios[32m=[0m{},
+                       @inserted_steps[32m=[0m{}[32m>[0m,
+                     @summary_report[32m=[0m
+                      [32m#<Cucumber::Core::Report::Summary:0x0000000008830308[0m
+                       @previous_test_case[32m=[0m[1;36mnil[0m,
+                       @test_cases[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088302e0[0m
+                         @durations[32m=[0m[],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{}[32m>[0m,
+                       @test_steps[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088301f0[0m
+                         @durations[32m=[0m
+                          [[32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                            @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{[33m:passed[0m=>[1;34m1[0m}[32m>[0m[32m>[0m,
+                     @support_code[32m=[0m
+                      [32m#<Cucumber::Runtime::SupportCode:0x000000000639a098[0m
+                       @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                       @registry[32m=[0m
+                        [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                       @runtime_facade[32m=[0m
+                        [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x000000000639a070[0m
+                         ...[32m>[0m[32m>[0m,
+                     @visitor[32m=[0m
+                      [32m#<Cucumber::Core::Report::Summary:0x0000000008830308[0m
+                       @previous_test_case[32m=[0m[1;36mnil[0m,
+                       @test_cases[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088302e0[0m
+                         @durations[32m=[0m[],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{}[32m>[0m,
+                       @test_steps[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088301f0[0m
+                         @durations[32m=[0m
+                          [[32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                            @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m
+                          {[33m:passed[0m=>[1;34m1[0m}[32m>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                       formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x0000000006a847a0[0m ...[32m>[0m,
+                       results[32m=[0m
+                        [32m#<Cucumber::Formatter::LegacyApi::Results:0x0000000006a84ae8[0m
+                         @inserted_scenarios[32m=[0m{},
+                         @inserted_steps[32m=[0m
+                          {[1;34m72512900[0m=>
+                            [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                             step_match[32m=[0m
+                              [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                             status[32m=[0m[33m:passed[0m,
+                             duration[32m=[0m
+                              [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                               @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                             exception[32m=[0m[1;36mnil[0m,
+                             indent[32m=[0m
+                              [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                               @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                             background[32m=[0m[1;36mnil[0m,
+                             step[32m=[0m
+                              [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                             messages[32m=[0m[],
+                             embeddings[32m=[0m[][32m>[0m},
+                         @steps[32m=[0m
+                          [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                            step_match[32m=[0m
+                             [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                            status[32m=[0m[33m:passed[0m,
+                            duration[32m=[0m
+                             [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                              @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                            exception[32m=[0m[1;36mnil[0m,
+                            indent[32m=[0m
+                             [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                              @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                            background[32m=[0m[1;36mnil[0m,
+                            step[32m=[0m
+                             [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                            messages[32m=[0m[],
+                            embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                       config[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m[32m>[0m[32m>[0m[32m>[0m,
+                 @step_definitions[32m=[0m
+                  [[32m#<Cucumber::Glue::StepDefinition:0x0000000008805180[0m ...[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x0000000008810eb8[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008813320[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31mrealizar a compra de um produto[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x00000000088130c8[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008812fd8[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m[35m[1;35m/[0m[35m^realizar a compra de um produto$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x0000000008813348@C:/Ruby25-x64/devKit/prova/features/step_definitions/busca_steps.rb:9>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x0000000008818e88[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008810be8[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m
+                       [31m[1;31m"[0m[31mverificar o valor final da compra se há cobrança de frete[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x00000000088108f0[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008810850[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m
+                         [35m[1;35m/[0m[35m^verificar o valor final da compra se há cobrança de frete$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x0000000008810c10@C:/Ruby25-x64/devKit/prova/features/step_definitions/busca_steps.rb:15>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x0000000008821718[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008818050[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31mavaliar o item mais cara e remove lo[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x0000000008823dd8[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008823ce8[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m[35m[1;35m/[0m[35m^avaliar o item mais cara e remove lo$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @location[32m=[0m
+                     [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                      file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/remover_item_caro_steps.rb[1;31m"[0m[31m[0m,
+                      lines[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x0000000008818078@C:/Ruby25-x64/devKit/prova/features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x000000000882be20[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008821498[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31mvalidar que foi retirado[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x0000000008821240[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008821150[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m[35m[1;35m/[0m[35m^validar que foi retirado$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @location[32m=[0m
+                     [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                      file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/remover_item_caro_steps.rb[1;31m"[0m[31m[0m,
+                      lines[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m8[0m}>[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x00000000088214c0@C:/Ruby25-x64/devKit/prova/features/step_definitions/remover_item_caro_steps.rb:8>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x0000000008828a90[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x000000000882b0b0[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31menviar três itens para o carrinho[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x000000000882ae58[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x000000000882adb8[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m[35m[1;35m/[0m[35m^enviar três itens para o carrinho$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x000000000882b0d8@C:/Ruby25-x64/devKit/prova/features/step_definitions/validar_carrinho_steps.rb:2>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x00000000088310f0[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008828810[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31mverificar a quantidade de itens selecionado para compra[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x00000000088285b8[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x00000000088284c8[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m
+                         [35m[1;35m/[0m[35m^verificar a quantidade de itens selecionado para compra$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x0000000008828838@C:/Ruby25-x64/devKit/prova/features/step_definitions/validar_carrinho_steps.rb:7>[0m,
+                    @registry[32m=[0m
+                     [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m],
+                 @world_modules[32m=[0m[[1;34;4mCapybara[0m::[1;34;4mDSL[0m, [1;34;4mCapybara[0m::[1;34;4mRSpecMatchers[0m],
+                 @world_proc[32m=[0m[1;36mnil[0m[32m>[0m[32m>[0m[32m>[0m,
+            [32m#<Cucumber::Events::StepDefinitionRegistered:0x0000000008810d50[0m
+             @step_definition[32m=[0m
+              [32m#<Cucumber::Glue::StepDefinition:0x0000000008810eb8[0m
+               @expression[32m=[0m
+                [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008813320[0m
+                 @parameter_types[32m=[0m[],
+                 @source[32m=[0m[31m[1;31m"[0m[31mrealizar a compra de um produto[1;31m"[0m[31m[0m,
+                 @tree_regexp[32m=[0m
+                  [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x00000000088130c8[0m
+                   @group_builder[32m=[0m
+                    [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008812fd8[0m
+                     @capturing[32m=[0m[1;36mtrue[0m,
+                     @group_builders[32m=[0m[][32m>[0m,
+                   @regexp[32m=[0m[35m[1;35m/[0m[35m^realizar a compra de um produto$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+               @proc[32m=[0m
+                [32m#<Proc:0x0000000008813348@C:/Ruby25-x64/devKit/prova/features/step_definitions/busca_steps.rb:9>[0m,
+               @registry[32m=[0m
+                [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m
+                 @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                 @current_world[32m=[0m
+                  [32m#<Object+Capybara::RSpecMatchers+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#<Module:0x0000000008b062f8>+PP::ObjectMixin+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0x45831a4>[0m,
+                 @hooks[32m=[0m
+                  {[33m:after[0m=>
+                    [[32m#<Cucumber::Glue::Hook:0x000000000675e9b8[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m9[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675e9e0@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:9>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[][32m>[0m],
+                   [33m:before[0m=>
+                    [[32m#<Cucumber::Glue::Hook:0x000000000675e260[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m13[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675e2b0@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:13>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[][32m>[0m,
+                     [32m#<Cucumber::Glue::Hook:0x000000000675dbd0[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675dbf8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:17>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[[31m[1;31m"[0m[31m@javascript[1;31m"[0m[31m[0m][32m>[0m,
+                     [32m#<Cucumber::Glue::Hook:0x000000000675d6f8[0m
+                      @location[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                        file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.18.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                        lines[32m=[0m
+                         [32m#<struct Cucumber::Core::Ast::Location::Lines[0m
+                          data[32m=[0m[32m#<Set: {[0m[1;34m21[0m}>[32m>[0m[32m>[0m,
+                      @proc[32m=[0m
+                       [32m#<Proc:0x000000000675d720@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.18.0/lib/capybara/cucumber.rb:21>[0m,
+                      @registry[32m=[0m
+                       [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                      @tag_expressions[32m=[0m[][32m>[0m],
+                   [33m:after_configuration[0m=>[],
+                   [33m:after_step[0m=>[],
+                   [33m:around[0m=>[]},
+                 @namespaced_world_modules[32m=[0m{},
+                 @parameter_type_registry[32m=[0m
+                  [32m#<Cucumber::CucumberExpressions::ParameterTypeRegistry:0x0000000006399fa8[0m
+                   @parameter_type_by_name[32m=[0m
+                    {[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399e90[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mtrue[0m,
+                       @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x0000000006399eb8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:17 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mInteger[0m,
+                       @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m,
+                     [31m[1;31m"[0m[31mfloat[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399940[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mfloat[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                       @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md*[1;35m\\[0m[31m.[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x0000000006399968@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:18 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mFloat[0m,
+                       @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m,
+                     [31m[1;31m"[0m[31mword[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399760[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mword[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                       @regexps[32m=[0m[[31m[1;31m"[0m[31m[1;35m\\[0m[31mw+[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x0000000006399788@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:19 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mString[0m,
+                       @use_for_snippets[32m=[0m[1;36mfalse[0m[32m>[0m,
+                     [31m[1;31m"[0m[31mstring[1;31m"[0m[31m[0m=>
+                      [32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399580[0m
+                       @name[32m=[0m[31m[1;31m"[0m[31mstring[1;31m"[0m[31m[0m,
+                       @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                       @regexps[32m=[0m
+                        [[31m[1;31m"[0m[31m[1;35m\"[0m[31m([^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)[1;35m\"[0m[31m|'([^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)'[1;31m"[0m[31m[0m],
+                       @transformer[32m=[0m
+                        [32m#<Proc:0x00000000063995a8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:20 (lambda)>[0m,
+                       @type[32m=[0m[1;34;4mString[0m,
+                       @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m},
+                   @parameter_types_by_regexp[32m=[0m
+                    {[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399e90[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mtrue[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399eb8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:17 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mInteger[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399e90[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mint[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mtrue[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md+[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399eb8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:17 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mInteger[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m-?[1;35m\\[0m[31md*[1;35m\\[0m[31m.[1;35m\\[0m[31md+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399940[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mfloat[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m-?[1;35m\\[0m[31md*[1;35m\\[0m[31m.[1;35m\\[0m[31md+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399968@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:18 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mFloat[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m[1;35m\\[0m[31mw+[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399760[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mword[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                        @regexps[32m=[0m[[31m[1;31m"[0m[31m[1;35m\\[0m[31mw+[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x0000000006399788@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:19 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mString[0m,
+                        @use_for_snippets[32m=[0m[1;36mfalse[0m[32m>[0m],
+                     [31m[1;31m"[0m[31m[1;35m\"[0m[31m([^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)[1;35m\"[0m[31m|'([^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)'[1;31m"[0m[31m[0m=>
+                      [[32m#<Cucumber::CucumberExpressions::ParameterType:0x0000000006399580[0m
+                        @name[32m=[0m[31m[1;31m"[0m[31mstring[1;31m"[0m[31m[0m,
+                        @prefer_for_regexp_match[32m=[0m[1;36mfalse[0m,
+                        @regexps[32m=[0m
+                         [[31m[1;31m"[0m[31m[1;35m\"[0m[31m([^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^[1;35m\"[0m[31m[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)[1;35m\"[0m[31m|'([^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*([1;35m\\[0m[31m[1;35m\\[0m[31m.[^'[1;35m\\[0m[31m[1;35m\\[0m[31m]*)*)'[1;31m"[0m[31m[0m],
+                        @transformer[32m=[0m
+                         [32m#<Proc:0x00000000063995a8@C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/cucumber-expressions-5.0.13/lib/cucumber/cucumber_expressions/parameter_type_registry.rb:20 (lambda)>[0m,
+                        @type[32m=[0m[1;34;4mString[0m,
+                        @use_for_snippets[32m=[0m[1;36mtrue[0m[32m>[0m]}[32m>[0m,
+                 @runtime[32m=[0m
+                  [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x000000000639a070[0m
+                   @support_code[32m=[0m
+                    [32m#<Cucumber::Runtime::SupportCode:0x000000000639a098[0m
+                     @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                     @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                     @runtime_facade[32m=[0m
+                      [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x000000000639a070[0m
+                       ...[32m>[0m[32m>[0m,
+                   @user_interface[32m=[0m
+                    [32m#<Cucumber::Runtime:0x00000000063b2940[0m
+                     @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                     @features[32m=[0m
+                      [[32m#<Cucumber::Core::Gherkin::Document:0x0000000008a76770[0m
+                        @body[32m=[0m
+                         [31m[1;31m"[0m[31m#language: pt[1;35m\n[0m[31m#utf-8[1;35m\n[0m[31m[1;35m\n[0m[31mFuncionalidade: Efetuar Compra[1;35m\n[0m[31m  Eu como usuário do site[1;35m\n[0m[31m  Quero realizar uma compra no site store.demoqa[1;35m\n[0m[31m  Para realizar a aquisição de produtos[1;35m\n[0m[31m[1;35m\n[0m[31m  @compra[1;35m\n[0m[31m  Cenario: Comprar produto[1;35m\n[0m[31m    Dado que eu esteja na home site store.demoqa[1;35m\n[0m[31m    Quando realizar a compra de um produto[1;35m\n[0m[31m    Então verificar o valor final da compra se há cobrança de frete[1;35m\n[0m[31m[1;35m\n[0m[31m  @carrinho[1;35m\n[0m[31m  Cenario: Validar produtos no carrinho[1;35m\n[0m[31m    Quando enviar três itens para o carrinho[1;35m\n[0m[31m    Então verificar a quantidade de itens selecionado para compra[1;35m\n[0m[31m[1;35m\n[0m[31m  @remover[1;35m\n[0m[31m  Cenario: Remover item do carrinho[1;35m\n[0m[31m      Quando avaliar o item mais cara e remove lo[1;35m\n[0m[31m      Então validar que foi retirado[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                        @language[32m=[0m[31m[1;31m"[0m[31men[1;31m"[0m[31m[0m,
+                        @uri[32m=[0m[31m[1;31m"[0m[31mfeatures/realizar_compra.feature[1;31m"[0m[31m[0m[32m>[0m],
+                     @filespecs[32m=[0m
+                      [32m#<Cucumber::FileSpecs:0x0000000008a76fb8[0m
+                       @file_specs[32m=[0m
+                        [[32m#<Cucumber::FileSpecs::FileSpec:0x0000000008a76f68[0m
+                          @file[32m=[0m[31m[1;31m"[0m[31mfeatures/realizar_compra.feature[1;31m"[0m[31m[0m,
+                          @lines[32m=[0m[][32m>[0m][32m>[0m,
+                     @formatters[32m=[0m[[32m#<struct Cucumber::Formatter::LegacyApi::Adapter:...>[0m],
+                     @report[32m=[0m
+                      [32m#<Cucumber::Core::Report::Summary:0x0000000008830308[0m
+                       @previous_test_case[32m=[0m[1;36mnil[0m,
+                       @test_cases[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088302e0[0m
+                         @durations[32m=[0m[],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{}[32m>[0m,
+                       @test_steps[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088301f0[0m
+                         @durations[32m=[0m
+                          [[32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                            @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m
+                          {[33m:passed[0m=>[1;34m1[0m}[32m>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                       formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x0000000006a847a0[0m ...[32m>[0m,
+                       results[32m=[0m
+                        [32m#<Cucumber::Formatter::LegacyApi::Results:0x0000000006a84ae8[0m
+                         @inserted_scenarios[32m=[0m{},
+                         @inserted_steps[32m=[0m
+                          {[1;34m72512900[0m=>
+                            [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                             step_match[32m=[0m
+                              [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                             status[32m=[0m[33m:passed[0m,
+                             duration[32m=[0m
+                              [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                               @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                             exception[32m=[0m[1;36mnil[0m,
+                             indent[32m=[0m
+                              [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                               @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                             background[32m=[0m[1;36mnil[0m,
+                             step[32m=[0m
+                              [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                             messages[32m=[0m[],
+                             embeddings[32m=[0m[][32m>[0m},
+                         @steps[32m=[0m
+                          [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                            step_match[32m=[0m
+                             [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                            status[32m=[0m[33m:passed[0m,
+                            duration[32m=[0m
+                             [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                              @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                            exception[32m=[0m[1;36mnil[0m,
+                            indent[32m=[0m
+                             [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                              @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                            background[32m=[0m[1;36mnil[0m,
+                            step[32m=[0m
+                             [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                            messages[32m=[0m[],
+                            embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                       config[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m[32m>[0m,
+                     @results[32m=[0m
+                      [32m#<Cucumber::Formatter::LegacyApi::Results:0x0000000006399170[0m
+                       @inserted_scenarios[32m=[0m{},
+                       @inserted_steps[32m=[0m{}[32m>[0m,
+                     @summary_report[32m=[0m
+                      [32m#<Cucumber::Core::Report::Summary:0x0000000008830308[0m
+                       @previous_test_case[32m=[0m[1;36mnil[0m,
+                       @test_cases[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088302e0[0m
+                         @durations[32m=[0m[],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{}[32m>[0m,
+                       @test_steps[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088301f0[0m
+                         @durations[32m=[0m
+                          [[32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                            @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{[33m:passed[0m=>[1;34m1[0m}[32m>[0m[32m>[0m,
+                     @support_code[32m=[0m
+                      [32m#<Cucumber::Runtime::SupportCode:0x000000000639a098[0m
+                       @configuration[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m,
+                       @registry[32m=[0m
+                        [32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m,
+                       @runtime_facade[32m=[0m
+                        [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x000000000639a070[0m
+                         ...[32m>[0m[32m>[0m,
+                     @visitor[32m=[0m
+                      [32m#<Cucumber::Core::Report::Summary:0x0000000008830308[0m
+                       @previous_test_case[32m=[0m[1;36mnil[0m,
+                       @test_cases[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088302e0[0m
+                         @durations[32m=[0m[],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m{}[32m>[0m,
+                       @test_steps[32m=[0m
+                        [32m#<Cucumber::Core::Test::Result::Summary:0x00000000088301f0[0m
+                         @durations[32m=[0m
+                          [[32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                            @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m],
+                         @exceptions[32m=[0m[],
+                         @totals[32m=[0m
+                          {[33m:passed[0m=>[1;34m1[0m}[32m>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                       formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x0000000006a847a0[0m ...[32m>[0m,
+                       results[32m=[0m
+                        [32m#<Cucumber::Formatter::LegacyApi::Results:0x0000000006a84ae8[0m
+                         @inserted_scenarios[32m=[0m{},
+                         @inserted_steps[32m=[0m
+                          {[1;34m72512900[0m=>
+                            [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                             step_match[32m=[0m
+                              [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                             status[32m=[0m[33m:passed[0m,
+                             duration[32m=[0m
+                              [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                               @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                             exception[32m=[0m[1;36mnil[0m,
+                             indent[32m=[0m
+                              [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                               @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                             background[32m=[0m[1;36mnil[0m,
+                             step[32m=[0m
+                              [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                             messages[32m=[0m[],
+                             embeddings[32m=[0m[][32m>[0m},
+                         @steps[32m=[0m
+                          [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                            step_match[32m=[0m
+                             [32m#<Cucumber::StepMatch: features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                            status[32m=[0m[33m:passed[0m,
+                            duration[32m=[0m
+                             [32m#<Cucumber::Core::Test::Result::Duration:0x0000000008a5d798[0m
+                              @nanoseconds[32m=[0m[1;34m74737015891[0m[32m>[0m,
+                            exception[32m=[0m[1;36mnil[0m,
+                            indent[32m=[0m
+                             [32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000008a4ed10[0m
+                              @widths[32m=[0m[[1;34m32[0m, [1;34m44[0m, [1;34m31[0m][32m>[0m,
+                            background[32m=[0m[1;36mnil[0m,
+                            step[32m=[0m
+                             [32m#<Cucumber::Core::Ast::Step "Quando : avaliar o item mais cara e remove lo" (features/realizar_compra.feature:22)>[0m,
+                            messages[32m=[0m[],
+                            embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                       config[32m=[0m[32m#<Cucumber::Configuration:0x00000000063b28a0[0m ...[32m>[0m[32m>[0m[32m>[0m[32m>[0m,
+                 @step_definitions[32m=[0m
+                  [[32m#<Cucumber::Glue::StepDefinition:0x0000000008805180[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008807ef8[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31mque eu esteja na home site store.demoqa[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x0000000008807c00[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008807b10[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m[35m[1;35m/[0m[35m^que eu esteja na home site store[1;35m\.[0m[35mdemoqa$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x0000000008807f20@C:/Ruby25-x64/devKit/prova/features/step_definitions/busca_steps.rb:1>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x0000000008810eb8[0m ...[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x0000000008818e88[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008810be8[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m
+                       [31m[1;31m"[0m[31mverificar o valor final da compra se há cobrança de frete[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x00000000088108f0[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008810850[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m
+                         [35m[1;35m/[0m[35m^verificar o valor final da compra se há cobrança de frete$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x0000000008810c10@C:/Ruby25-x64/devKit/prova/features/step_definitions/busca_steps.rb:15>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x0000000008821718[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008818050[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31mavaliar o item mais cara e remove lo[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x0000000008823dd8[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008823ce8[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m[35m[1;35m/[0m[35m^avaliar o item mais cara e remove lo$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @location[32m=[0m
+                     [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                      file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/remover_item_caro_steps.rb[1;31m"[0m[31m[0m,
+                      lines[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x0000000008818078@C:/Ruby25-x64/devKit/prova/features/step_definitions/remover_item_caro_steps.rb:1>[0m,
+                    @registry[32m=[0m[32m#<Cucumber::Glue::RegistryAndMore:0x000000000639a020[0m ...[32m>[0m[32m>[0m,
+                   [32m#<Cucumber::Glue::StepDefinition:0x000000000882be20[0m
+                    @expression[32m=[0m
+                     [32m#<Cucumber::CucumberExpressions::CucumberExpression:0x0000000008821498[0m
+                      @parameter_types[32m=[0m[],
+                      @source[32m=[0m[31m[1;31m"[0m[31mvalidar que foi retirado[1;31m"[0m[31m[0m,
+                      @tree_regexp[32m=[0m
+                       [32m#<Cucumber::CucumberExpressions::TreeRegexp:0x0000000008821240[0m
+                        @group_builder[32m=[0m
+                         [32m#<Cucumber::CucumberExpressions::GroupBuilder:0x0000000008821150[0m
+                          @capturing[32m=[0m[1;36mtrue[0m,
+                          @group_builders[32m=[0m[][32m>[0m,
+                        @regexp[32m=[0m[35m[1;35m/[0m[35m^validar que foi retirado$[1;35m/[0m[35m[0m[32m>[0m[32m>[0m,
+                    @location[32m=[0m
+                     [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                      file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/remover_item_caro_steps.rb[1;31m"[0m[31m[0m,
+                      lines[32m=[0m
+                       [32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m8[0m}>[32m>[0m[32m>[0m,
+                    @proc[32m=[0m
+                     [32m#<Proc:0x00000000088214c0@C:/Ruby25-x64/devKit/prova/features/step_definitions/remover_item_caro_steps.rb:8>[0m,
+                    @registry[32m=[0m

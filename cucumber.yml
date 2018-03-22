@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty
+
+diario: -t @testa -f html -o tml_report.html
